@@ -1,6 +1,8 @@
 name: event_tracker_flutter
 description: Cross-platform Event Tracker SDK plugin for Flutter.
 version: 1.0.0
+homepage: https://github.com/suneelasiddiqui12/event_tracker_flutter
+repository: https://github.com/suneelasiddiqui12/event_tracker_flutter
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
