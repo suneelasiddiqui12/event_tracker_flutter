@@ -3,7 +3,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'package:event_tracker_flutter/event_tracker_flutter.dart';
-// pub dev code
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
