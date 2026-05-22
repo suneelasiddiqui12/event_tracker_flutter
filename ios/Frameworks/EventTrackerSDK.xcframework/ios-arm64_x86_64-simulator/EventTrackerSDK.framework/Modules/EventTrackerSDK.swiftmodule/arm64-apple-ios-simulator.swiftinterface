@@ -1,0 +1,25 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios26.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name EventTrackerSDK
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers final public class EventTracker {
+  public static let shared: EventTrackerSDK.EventTracker
+  final public func initialize(eventKey: Swift.String, apiEndpoint: Swift.String = "https://event.xnotify.ai/v2/save", debug: Swift.Bool = false)
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func track(_ eventName: Swift.String, properties: [Swift.String : Any?] = [:])
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func page(_ pageName: Swift.String, properties: [Swift.String : Any?] = [:])
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func identify(contactNumber: Swift.String, traits: [Swift.String : Any?] = [:])
+  #endif
+  final public func flush()
+  @objc deinit
+}

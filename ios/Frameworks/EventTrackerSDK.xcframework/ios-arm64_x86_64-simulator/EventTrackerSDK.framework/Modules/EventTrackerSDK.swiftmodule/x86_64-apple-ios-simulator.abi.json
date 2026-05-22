@@ -1,0 +1,530 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "EventTrackerSDK",
+    "printedName": "EventTrackerSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EventTrackerSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EventTrackerSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EventTracker",
+        "printedName": "EventTracker",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventTracker",
+                "printedName": "EventTrackerSDK.EventTracker",
+                "usr": "s:15EventTrackerSDK0aB0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15EventTrackerSDK0aB0C6sharedACvpZ",
+            "mangledName": "$s15EventTrackerSDK0aB0C6sharedACvpZ",
+            "moduleName": "EventTrackerSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventTracker",
+                    "printedName": "EventTrackerSDK.EventTracker",
+                    "usr": "s:15EventTrackerSDK0aB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15EventTrackerSDK0aB0C6sharedACvgZ",
+                "mangledName": "$s15EventTrackerSDK0aB0C6sharedACvgZ",
+                "moduleName": "EventTrackerSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(eventKey:apiEndpoint:debug:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15EventTrackerSDK0aB0C10initialize8eventKey11apiEndpoint5debugySS_SSSbtF",
+            "mangledName": "$s15EventTrackerSDK0aB0C10initialize8eventKey11apiEndpoint5debugySS_SSSbtF",
+            "moduleName": "EventTrackerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "track",
+            "printedName": "track(_:properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15EventTrackerSDK0aB0C5track_10propertiesySS_SDySSypSgGtF",
+            "mangledName": "$s15EventTrackerSDK0aB0C5track_10propertiesySS_SDySSypSgGtF",
+            "moduleName": "EventTrackerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "page",
+            "printedName": "page(_:properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15EventTrackerSDK0aB0C4page_10propertiesySS_SDySSypSgGtF",
+            "mangledName": "$s15EventTrackerSDK0aB0C4page_10propertiesySS_SDySSypSgGtF",
+            "moduleName": "EventTrackerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "identify",
+            "printedName": "identify(contactNumber:traits:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15EventTrackerSDK0aB0C8identify13contactNumber6traitsySS_SDySSypSgGtF",
+            "mangledName": "$s15EventTrackerSDK0aB0C8identify13contactNumber6traitsySS_SDySSypSgGtF",
+            "moduleName": "EventTrackerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flush",
+            "printedName": "flush()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15EventTrackerSDK0aB0C5flushyyF",
+            "mangledName": "$s15EventTrackerSDK0aB0C5flushyyF",
+            "moduleName": "EventTrackerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15EventTrackerSDK0aB0C",
+        "mangledName": "$s15EventTrackerSDK0aB0C",
+        "moduleName": "EventTrackerSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EventTrackerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "FloatLiteral",
+      "offset": 267,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 302,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 336,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 369,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 416,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 421,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 426,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 495,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 532,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 635,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "Array",
+      "offset": 680,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "Array",
+      "offset": 722,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 763,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 802,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 843,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 915,
+      "length": 9,
+      "value": "\"UNKNOWN\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 1027,
+      "length": 27,
+      "value": "\"event_tracker_distinct_id\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 1086,
+      "length": 26,
+      "value": "\"event_tracker_contact_no\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 1180,
+      "length": 24,
+      "value": "\"com.eventtracker.queue\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 1450,
+      "length": 34,
+      "value": "\"https:\/\/event.xnotify.ai\/v2\/save\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1537,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "Dictionary",
+      "offset": 2119,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "Dictionary",
+      "offset": 3086,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Desktop\/EventTracker\/EventTrackerSDKGitlab\/event-tracker-sdk-ios\/EventTrackerSDK\/EventTrackerSDK\/EventTracker.swift",
+      "kind": "Dictionary",
+      "offset": 3266,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}
