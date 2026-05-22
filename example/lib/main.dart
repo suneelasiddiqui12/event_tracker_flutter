@@ -10,7 +10,7 @@ Future<void> main() async {
 
   // ── Initialise the SDK once at app startup ──────────────────────────────
   await EventTrackerFlutter.initialize(
-    eventKey: '36f9bb65-fa15-4105-bf64-bac60dbc9e19', // replace with your key
+    eventKey: 'YOUR_EVENT_KEY', // replace with your key
     debug: false,
   );
 

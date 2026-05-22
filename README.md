@@ -1,15 +1,22 @@
-# event_tracker_flutter_final
+# Event Tracker Flutter SDK
 
-A new Flutter plugin project.
+Cross-platform Flutter plugin for integrating the XNotify Event Tracker SDK on both Android and iOS.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+- Event tracking
+- User identification
+- Anonymous session tracking
+- Page/screen tracking
+- Manual event flushing
+- Supports Android & iOS with a single Flutter package
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
 
+# Installation
+
+Add dependency in your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  event_tracker_flutter: ^1.0.0
